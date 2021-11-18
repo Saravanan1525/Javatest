@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite_001">
+  <test thread-count="5" name="MySuite_001_TestResults">
+    <classes>
+      <class name="testng.AnnotationsThree"/>
+      <class name="testng.NewTestNGClassSample"/>
+      <class name="testng.AnnotationSampleOne"/>
+      <class name="testng.FirefoxBrowser"/>
+      <class name="testng.AnnotationTwo"/>
+      <class name="testng.FBLOGIN"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
